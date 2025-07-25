@@ -31,7 +31,7 @@ app.post("/send-message", async (req, res) => {
   }
 
   const message = {
-    data: {
+    notification: {
       title,
       body,
     },
